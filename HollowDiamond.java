@@ -5,8 +5,8 @@ public class HollowDiamond {
         
         // Loop for row
         for (int i = 0; i < x; i++) {
-            int letterIndex = Math.min(i, x - 1 - i); // Determine the row's letter based on its distance from the center
-            char currentLetter = Alphabet[letterIndex % Alphabet.length]; // Select the letter for the row
+            int letterIndex = Math.min(i, x - 1 - i); 
+            char currentLetter = Alphabet[letterIndex % Alphabet.length]; 
 
             for (int j = 0; j < x; j++) {
                 // Distance from the center
